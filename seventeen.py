@@ -89,12 +89,4 @@ Nov17_avg=round(Nov17_data['Average'].mean(),2)
 Dec17_data=new_data.loc['Dec 31, 2017': 'Dec 01, 2017'].copy()
 Dec17_data['Average'] = ((Dec17_data['Close'] + Dec17_data['Open'])/2)
 Dec17_avg=round(Dec17_data['Average'].mean(),2)
-#print(Dec17_data)
-#print(Dec17_avg)
-
-
-#December 2021 Data
-
-#dec21_data=new_data.loc['Dec 31, 2021': 'Dec 01, 2021'].copy()
-#dec21_data['Average'] = ((dec21_data['Close'] + dec21_data['Open'])/2) 
-#print(dec21_data) 
+ 
